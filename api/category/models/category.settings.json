@@ -19,6 +19,10 @@
     "articles": {
       "collection": "articles",
       "via": "category"
+    },
+    "section": {
+      "via": "categories",
+      "model": "section"
     }
   }
 }

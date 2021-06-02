@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sections",
+  "info": {
+    "name": "Section",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "SectionName": {
+      "type": "string"
+    },
+    "categories": {
+      "collection": "category",
+      "via": "section"
+    }
+  }
+}
